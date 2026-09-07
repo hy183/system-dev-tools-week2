@@ -5,7 +5,7 @@ def merge(left, right):
         if left[i] <= right[j]:
             result.append(left[i]); i += 1
         else:
-            result.append(right[j]); j += 1  # 此处有缺陷
+            result.append(right[j]); j += 1 
     return result + left[i:] + right[j:]
 
 
